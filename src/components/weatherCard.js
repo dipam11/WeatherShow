@@ -57,9 +57,9 @@ const WeatherCard = ({ tempInfo }) => {
               {name} , {country}
             </div>
           </div>
+        <div className="date"> {new Date().toLocaleString()}</div>
         </div>
 
-        <div className="date"> {new Date().toLocaleString()}</div>
 
         <div className="extra-temp">
           <div className="temp-info-minmax">
